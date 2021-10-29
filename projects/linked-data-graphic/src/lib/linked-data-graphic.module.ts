@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-import { PanZoomDirectiveModule } from '@ngld/pan-zoom';
+import { PanZoomDirectiveModule } from '../../../pan-zoom-directive/src/public-api';
 import { SvgIconModule } from '../../../icon/src/public-api';
 import { LinkedDataGraphicComponent } from './canvas.component';
 import { BoxSizeListenerDirective } from './box-size-listener.directive';
