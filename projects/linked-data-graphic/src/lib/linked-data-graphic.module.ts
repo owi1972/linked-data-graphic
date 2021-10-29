@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { PanZoomDirectiveModule } from '@ngld/pan-zoom';
-import { SvgIconModule } from '@ngld/icon';
+import { SvgIconModule } from '../../../icon/src/public-api';
 import { LinkedDataGraphicComponent } from './canvas.component';
 import { BoxSizeListenerDirective } from './box-size-listener.directive';
 import { LongPressDirective } from './long-press.directive';

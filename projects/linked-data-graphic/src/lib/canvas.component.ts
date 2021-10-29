@@ -1,10 +1,10 @@
 import { Component, OnInit, ViewChild, ElementRef, Input, Optional, Output, EventEmitter, Injectable } from '@angular/core';
 import { CdkDragEnd, CdkDragMove } from '@angular/cdk/drag-drop';
-import { Easing, trigger, transition, render, TransitionService, animate } from '@ngld/transition';
-import { PLUS_ICON_PROVIDER } from '@ngld/icon/plus.icon';
-import { REMOVE_ICON_PROVIDER } from '@ngld/icon/remove.icon';
-import { UNLOCK_ICON_PROVIDER } from '@ngld/icon/unlock.icon';
-import { SvgIconRegistry } from '@ngld/icon';
+import { Easing, trigger, transition, render, TransitionService, animate } from '../../../transition/src/public-api';
+import { PLUS_ICON_PROVIDER } from '../../../icon/plus.icon/src/public_api';
+import { REMOVE_ICON_PROVIDER } from '../../../icon/remove.icon/src/public_api';
+import { UNLOCK_ICON_PROVIDER } from '../../../icon/unlock.icon/src/public_api';
+import { SvgIconRegistry } from '../../../icon/src/public-api';
 import { nanoid } from 'nanoid';
 import * as rfdc from 'rfdc';
 import { Simulation, forceSimulation, forceCollide, forceManyBody, forceLink, forceCenter, ForceLink } from 'd3-force';
